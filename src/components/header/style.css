@@ -1,0 +1,25 @@
+.logo {
+    width: 80px
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.home_menu {
+    margin-right: 15px;
+}
+
+.menu > li {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
