@@ -15,7 +15,7 @@ export default function App() {
   async function getTodos() {
     try {
       const res = await axios.get(
-        "https://todo-list-backend-woad.vercel.app/get-all-todo"
+        "https://todo-list-backend-n6d6.onrender.com/get-all-todo"
       );
       setTodos(res.data.todos);
     } catch (error) {

@@ -9,7 +9,7 @@ export default function TodoForm({ onAdd, getTodos }) {
 
     try {
       const res = await axios.post(
-        "https://todo-list-backend-woad.vercel.app/create-todo",
+        "https://todo-list-backend-n6d6.onrender.com/create-todo",
         todo
       );
       alert(res.data);

@@ -20,7 +20,7 @@ export default function TodoList(props) {
     if (!id) return;
     try {
       const res = await axios.put(
-        `https://todo-list-backend-woad.vercel.app/update-todo/${id}`,
+        `https://todo-list-backend-n6d6.onrender.com/update-todo/${id}`,
         editData
       );
       setEditingId(null);
@@ -100,7 +100,7 @@ export default function TodoList(props) {
                     onClick={async function () {
                       try {
                         const res = await axios.delete(
-                          `https://todo-list-backend-woad.vercel.app/delete-todo/${todo._id}`
+                          `https://todo-list-backend-n6d6.onrender.com/delete-todo/${todo._id}`
                         );
                         props.getTodos();
                       } catch (error) {
